@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d05f5d26-299b-43c2-8336-d17b6938247a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/01-first-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/02-javascript-syntax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/03-dom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/04-working-with-the-dom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/05-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/06-data-types-strings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/07-data-types-numbers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/08-data-types-booleans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/09-data-types-null-undefined.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/10-exercise1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/11-functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/12-data-types-arrays.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/13-data-types-objects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/14-objects-methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/15-exercise2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/16-events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/17-css-manipulation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/18-more-get-element.methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/19-loops-for-for-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/20-loops-while-do-while.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/21-conditionals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/22-nesting-conditionals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/23-variable-scope.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/24-exercise3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/25-bom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/26-date-time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/27-time-methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/28-break-continue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/29-forms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/30-onchange-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/31-exercise4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/32-jquery-intro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/33-jquery-syntax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/34-jquery-dom-manipulation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/35-jquery-forms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/36-jquery-css-classes-manipulation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/37-jquery-events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/38-jquery-effects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/39-jquery-animate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/highlight/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/img/ajax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/img/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/img/dom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/img/logo_js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/img/netscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/img/shopicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CompleteRoadMapForWebDesignProject/javascript_course/tools/indice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CppAdvanceLearning/.vs/CppAdvanceLearning/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CppAdvanceLearning/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CppAdvanceLearning/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CppAdvanceLearning/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CppAdvanceLearning/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CppAdvanceLearning/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBMS/Queries/File2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DSAwithCSharp" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSAwithCSharp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Array2Dsum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Array2Dsum.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Changecharacter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Changecharacter.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/DifferentBitsSumPairwise.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/IntToRoman.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/N-bonnaci-number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/N-bonnaci-number.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/RangeSumQueryII.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/RangeSumQueryII.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Sales_by_Match.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Sales_by_Match.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/binaryStringAddition.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/binaryStringAddition.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/decomList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/decomList.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/distinctElementInEveryWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/equiPoint.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/equiPoint.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/insertionSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/insertionSort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/integerToRoman.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/integerToRoman.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/longestPalindrome.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/longestPalindrome.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/max1s.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/max1s.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/mostWater.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/mostWater.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/pickFromBothSides.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/powerFunction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/powerFunction.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/productArrayPuzzle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/productArrayPuzzle.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/rangeSum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/rangeSum.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/removeElement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/removeElement.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/returnLargest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/returnLargest.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/reverseInteger.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/reverseInteger.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/reverseTheArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/reverseTheArray.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/rowWiseMaxSum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/rowWiseMaxSum.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/smallerElement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/smallerElement.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/sprintfsprintf.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/sprintfsprintf.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/stringLongestPrefixsum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/stringLongestPrefixsum.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/stringSplit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/stringSplit.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/subarray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/subarray.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/sum3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/sum3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/sumInAll.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/sumInAll.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/t.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/t.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/tempCodeRunnerFile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/test1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/test1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/testing.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/testing.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class&amp;Objects&amp;LL&amp;Trees/LinkedList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class&amp;Objects&amp;LL&amp;Trees/LinkedList.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class&amp;Objects&amp;LL&amp;Trees/classObjects.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class&amp;Objects&amp;LL&amp;Trees/classObjects.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class&amp;Objects&amp;LL&amp;Trees/hmList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class&amp;Objects&amp;LL&amp;Trees/hmList.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class&amp;Objects&amp;LL&amp;Trees/matrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class&amp;Objects&amp;LL&amp;Trees/matrix.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fc8d1cbe036-create-a-class-point-and-threedpoint---method-overloading-and-overriding/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/869d014dac53-create-a-class-point--rectangle----oops-in-java--constructors-and-static-/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8edfa2a656f1-create--a-math-class---oops-in-java--constructors-and-static-/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8edfa2a656f1-create-a-node-class---oops-in-java--constructors-and-static-/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8edfa2a656f1-create-a-student-class--oops-in-java--constructors-and-static-/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad4de6ed53c5-create-a-basic-class--student-/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad4de6ed53c5-create-related-classes-1----point-and-rectangle-/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/d9c336094503-create-bankaccount-class/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/d9c336094503-create-related-classes-2----point-and-circle-/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/balancedParanthesis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/balancedParanthesis.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/cloneAlinkedList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/firstUniqueCharacter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/isdigit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/isdigit.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/pq.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/priorityQueue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/priorityQueue.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/queue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/queue.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/tempCodeRunnerFile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/testString.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/testString.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/TEST1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/binaryStringAddition.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/binaryStringAddition.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/divideBy2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/divideBy2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/divideByTwo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/divideByTwo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/gcd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/gcd.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/grayLeetcode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/grayLeetcode.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/longestSubarray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/longestSubarray.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/palindromeLeetcode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/palindromeLeetcode.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/sumOfFactor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/sumOfFactor.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/timeTakenByFunction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/timeTakenByFunction.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/trailingZeroes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathsClass/trailingZeroes.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STL/HashingAllConcepts.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STL/HashingAllConcepts.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STL/mergeSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backtracking/permutationWithDuplicates.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backtracking/test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backtrcking/output/printN.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backtrcking/printN.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backtrcking/printN.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/assignement1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/bfs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/dfs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/dijkstras.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/islands.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/output/bfs.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/prims.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/representation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/representation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph/rottenOranges.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ScalerJava" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2VAdwThmkwWIapEjvKa4BPHh9af" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/ProductBasedCompany/Scaler/LLD",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d05f5d26-299b-43c2-8336-d17b6938247a" name="Changes" comment="" />
+      <created>1694283065850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694283065850</updated>
+      <workItem from="1694283066788" duration="2299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AdderSubstractorLock/src/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
