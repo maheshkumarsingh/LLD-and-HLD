@@ -4,11 +4,13 @@ public class Producer implements Runnable{
     private Store store;
     private Semaphore prodSemaphore;
     private Semaphore conSemaphore;
-    public Producer(Store store, Semaphore prodSemaphore, Semaphore conSemaphore)
+    int producerID;
+    public Producer(Store store, Semaphore prodSemaphore, Semaphore conSemaphore, int producerID)
     {
         this.store = store;
         this.prodSemaphore = prodSemaphore;
         this.conSemaphore = conSemaphore;
+        this.producerID = producerID;
     }
 
     private void produceItem()
@@ -34,7 +36,7 @@ public class Producer implements Runnable{
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        store.addItem();
+        store.addItem(producerID);
         conSemaphore.release();
     }
     @Override

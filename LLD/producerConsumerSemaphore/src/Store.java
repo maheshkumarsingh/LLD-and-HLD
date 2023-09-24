@@ -11,16 +11,16 @@ public class Store {
         //items = new ArrayList<>();
         items = new ConcurrentLinkedDeque();
     }
-    public void addItem()
+    public void addItem(int producerID)
     {
         items.add(new Object());
-        System.out.println("Item added. size is" + items.size());
+        System.out.println("Item added.   size is " + items.size()+" By id: "+ producerID);
     }
-    public void removeItem()
+    public void removeItem(int consumerID)
     {
         items.remove();
 
-        System.out.println("Item removed. size is" + items.size());
+        System.out.println("Item removed. size is " + items.size() + " By id: " + consumerID);
     }
 
     public Queue<Object> getItems()
