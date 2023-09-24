@@ -13,12 +13,12 @@ public class Main {
 
 
         for (int i = 1; i <= 10; i++) {
-            Producer producer = new Producer(store,prodSemaphore, conSemaphore);
+            Producer producer = new Producer(store,prodSemaphore, conSemaphore,i);
             es.execute(producer);
         }
 
         for (int i = 1; i <=20; i++) {
-            Consumer consumer = new Consumer(store,prodSemaphore, conSemaphore);
+            Consumer consumer = new Consumer(store,prodSemaphore, conSemaphore,i);
             es.execute(consumer);
         }
     }

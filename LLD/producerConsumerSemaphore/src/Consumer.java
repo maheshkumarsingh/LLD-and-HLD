@@ -4,11 +4,13 @@ public class Consumer implements Runnable{
     private Store store;
     private Semaphore prodSemaphore;
     private Semaphore conSemaphore;
-    public Consumer(Store store, Semaphore prodSemaphore, Semaphore conSemaphore)
+    int consumerID;
+    public Consumer(Store store, Semaphore prodSemaphore, Semaphore conSemaphore, int consumerID)
     {
         this.store = store;
         this.prodSemaphore = prodSemaphore;
         this.conSemaphore = conSemaphore;
+        this.consumerID = consumerID;
     }
 
     private void consumeItem()
@@ -34,7 +36,7 @@ public class Consumer implements Runnable{
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        store.removeItem();
+        store.removeItem(consumerID);
         prodSemaphore.release();
     }
     @Override

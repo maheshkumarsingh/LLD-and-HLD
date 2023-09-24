@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdderSubstractorLock/AdderSubstractorLock.iml" filepath="$PROJECT_DIR$/AdderSubstractorLock/AdderSubstractorLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LLD.iml" filepath="$PROJECT_DIR$/.idea/LLD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adderSubstractorSynchronizedMethods/adderSubstractorSynchronizedMethods.iml" filepath="$PROJECT_DIR$/adderSubstractorSynchronizedMethods/adderSubstractorSynchronizedMethods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addersubstractorsynchronized/addersubstractorsynchronized.iml" filepath="$PROJECT_DIR$/addersubstractorsynchronized/addersubstractorsynchronized.iml" />
     </modules>
   </component>
 </project>
