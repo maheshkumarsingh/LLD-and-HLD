@@ -1,3 +1,5 @@
+package LLD.Lambdas.src;
+
 import java.util.concurrent.Callable;
 
 public class CallableExample {
