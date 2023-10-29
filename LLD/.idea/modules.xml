@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/solidPrinciples/src/BirdV1/BirdV1.iml" filepath="$PROJECT_DIR$/LLD-2/src/solidPrinciples/src/BirdV1/BirdV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/solidPrinciples/src/BirdV2/BirdV2.iml" filepath="$PROJECT_DIR$/LLD-2/src/solidPrinciples/src/BirdV2/BirdV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/solidPrinciples/src/BirdV3/BirdV3.iml" filepath="$PROJECT_DIR$/LLD-2/src/solidPrinciples/src/BirdV3/BirdV3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/Builder/Builder.iml" filepath="$PROJECT_DIR$/LLD-2/src/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/LLD-2/src/Decorator/Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/Factory/Factory.iml" filepath="$PROJECT_DIR$/LLD-2/src/Factory/Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/FactoryDesignPattern/FactoryDesignPattern.iml" filepath="$PROJECT_DIR$/LLD-2/src/FactoryDesignPattern/FactoryDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/FlyWeight/FlyWeight.iml" filepath="$PROJECT_DIR$/LLD-2/src/FlyWeight/FlyWeight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LLD.iml" filepath="$PROJECT_DIR$/.idea/LLD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/LLD-2.iml" filepath="$PROJECT_DIR$/LLD-2/LLD-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/LLD-2/src/Prototype/Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/LLD-2/src/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/Test/Test.iml" filepath="$PROJECT_DIR$/LLD-2/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD-2/src/solidPrinciples/solidPrinciples.iml" filepath="$PROJECT_DIR$/LLD-2/src/solidPrinciples/solidPrinciples.iml" />
+    </modules>
+  </component>
+</project>
