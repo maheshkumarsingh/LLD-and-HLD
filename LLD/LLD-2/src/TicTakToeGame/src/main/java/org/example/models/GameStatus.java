@@ -1,4 +1,7 @@
 package org.example.models;
 
-public class GameStatus {
+public enum GameStatus {
+    IN_PROGRESS,
+    DRAW,
+    ENDED,
 }

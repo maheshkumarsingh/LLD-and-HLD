@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface FlyingBehaviour {
+public interface FlyingBehaviour {
+    public void makeFly();
 }

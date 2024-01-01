@@ -1,2 +1,6 @@
-package org.example.models;public class PlayerType {
+package org.example.models;
+
+public enum PlayerType {
+    HUMAN,
+    BOT,
 }

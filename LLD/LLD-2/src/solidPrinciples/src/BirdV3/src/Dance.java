@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Dance {
+public interface Dance {
+    public void dance();
 }

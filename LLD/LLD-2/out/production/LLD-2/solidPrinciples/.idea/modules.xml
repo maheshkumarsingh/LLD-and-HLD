@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/BirdV1/BirdV1.iml" filepath="$PROJECT_DIR$/src/BirdV1/BirdV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/BirdV2/BirdV2.iml" filepath="$PROJECT_DIR$/src/BirdV2/BirdV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/BirdV3/BirdV3.iml" filepath="$PROJECT_DIR$/src/BirdV3/BirdV3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/BirdV4/BirdV4.iml" filepath="$PROJECT_DIR$/src/BirdV4/BirdV4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/solidPrinciples.iml" filepath="$PROJECT_DIR$/.idea/solidPrinciples.iml" />
+    </modules>
+  </component>
+</project>

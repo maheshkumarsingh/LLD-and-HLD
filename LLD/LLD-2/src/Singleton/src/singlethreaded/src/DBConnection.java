@@ -9,7 +9,7 @@ public class DBConnection {
 
     //why this static -> see we want to create ONLY one object if any object is not created. So this is static as we will not have to create
     //any object before creating any object.
-    public static DBConnection creaConnection()
+    public static DBConnection createConnection()
     {
         if(dbConnection == null)
             dbConnection = new DBConnection();
