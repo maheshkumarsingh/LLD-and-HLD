@@ -1,3 +1,2 @@
-public interface Dance {
-    public void dance();
+package PACKAGE_NAME;public interface Dance {
 }
