@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/stylesheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css"
+          integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-brand">
+                    Contacts Manager
+                </div>
+                <ul>
+                    <li>
+                        <a href="~/persons/index">Persons</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>
