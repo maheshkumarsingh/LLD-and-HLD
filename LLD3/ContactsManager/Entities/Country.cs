@@ -8,7 +8,7 @@
         private Guid _id;
         private string? _name;
 
-        public Guid CountryID { get => Guid.NewGuid(); set => _id = value; }
+        public Guid CountryID { get => _id; set => _id = value; }
         public string? CountryName { get => _name; set => _name = value; }
     }
 }

@@ -1,5 +1,4 @@
-﻿using Entities;
-using ServiceContracts.DTOs;
+﻿using ServiceContracts.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,19 +11,19 @@ namespace Services.Strategies.PersonSearchStrategy
     {
         public static IPersonSearchStrategy GetSearchPersonStrategy(string searchBy)
         {
-            switch(searchBy)
+            switch (searchBy)
             {
-                case nameof(Person.Name):
+                case nameof(PersonResponseDTO.PersonName):
                     return new PersonSearchByNameStrategy();
-                case nameof(Person.Email):
+                case nameof(PersonResponseDTO.Email):
                     return new PersonSearchByEmailStrategy();
-                case nameof(Person.Dob) :
+                case nameof(PersonResponseDTO.DOB):
                     return new PersonSearchByDOBStrategy();
-                case nameof(Person.Gender):
+                case nameof(PersonResponseDTO.Gender):
                     return new PersonSearchByGenderStrategy();
-                case nameof(Person.Address):
+                case nameof(PersonResponseDTO.Address):
                     return new PersonSearchByAddressStrategy();
-                case nameof(Person.CountryId):
+                case nameof(PersonResponseDTO.CountryID):
                     return new PersonSearchByCountryIDStrategy();
             }
             return null;

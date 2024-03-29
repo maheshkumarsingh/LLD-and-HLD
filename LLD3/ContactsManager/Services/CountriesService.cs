@@ -43,7 +43,7 @@ namespace Services
         public CountryResponseDTO GetCountryByCountryID(Guid? id)
         {
             if (id == null) throw new ArgumentNullException("id");
-            
+
             return (_countries.FirstOrDefault(country => country.CountryID == id)).ToCountryResponseDTO();
         }
     }

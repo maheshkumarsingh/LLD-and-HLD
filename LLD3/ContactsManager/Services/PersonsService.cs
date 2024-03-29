@@ -91,6 +91,8 @@ namespace Services
         #region GetFilteredPersons
         public List<PersonResponseDTO> GetFilteredPersons(string searchBy, string searchString)
         {
+            if (searchBy == null)
+                return GetAllPersons();
             //throw new NotImplementedException();
             _personSearchStrategy = PersonSearchStrategyFactory.GetSearchPersonStrategy(searchBy);
             return _personSearchStrategy.GetFilteredPersons(searchString);
