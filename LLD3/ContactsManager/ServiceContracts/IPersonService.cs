@@ -28,7 +28,7 @@ namespace ServiceContracts
         /// <param name="sortBy"></param>
         /// <param name="sortOrderOptionType"></param>
         /// <returns>List of all persons in sorted manner</returns>
-        List<PersonResponseDTO> GetSortedPersons(string sortBy, SortOrderOptionType sortOrderOptionType);
+        List<PersonResponseDTO> GetSortedPersons(List<PersonResponseDTO> filteredPersons, string sortBy, SortOrderOptionType sortOrderOptionType);
 
         public PersonResponseDTO UpdatePerson(UpdatePersonRequestDTO requestDTO);
 

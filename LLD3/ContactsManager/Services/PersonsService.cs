@@ -84,7 +84,7 @@ namespace Services
         #region GetAllPersons
         public List<PersonResponseDTO> GetAllPersons()
         {
-            return _persons.Select(person => person.ToPersonResponseDTO()).ToList();
+            return _persons.Select(person => ConvertPersonToPersonResponseDTO(person)).ToList();
         }
         #endregion
 
@@ -102,60 +102,57 @@ namespace Services
         #region GetPersonByID
         public PersonResponseDTO GetPersonByID(Guid id)
         {
-            return _persons.FirstOrDefault(person => person.PersonID == id).ToPersonResponseDTO();
+            return ConvertPersonToPersonResponseDTO(_persons.FirstOrDefault(person => person.PersonID == id));
         }
         #endregion
 
         #region GetSortedPersons
-        public List<PersonResponseDTO> GetSortedPersons(string sortBy, SortOrderOptionType sortOrderOptionType)
+        public List<PersonResponseDTO> GetSortedPersons(List<PersonResponseDTO> filteredPersons, string sortBy, SortOrderOptionType sortOrderOptionType)
         {
-            List<PersonResponseDTO> allPersons = GetAllPersons();
-            if (string.IsNullOrEmpty(sortBy))
-                return allPersons;
-
+            
             List<PersonResponseDTO> sortedPersons = (sortBy, sortOrderOptionType)
                 switch
             {
                 (nameof(PersonResponseDTO.PersonName), SortOrderOptionType.Ascending) =>
-                    allPersons.OrderBy(person => person.PersonName, StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderBy(person => person.PersonName, StringComparer.OrdinalIgnoreCase).ToList(),
                 (nameof(PersonResponseDTO.PersonName), SortOrderOptionType.Descending) =>
-                    allPersons.OrderBy(person => person.PersonName, StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderByDescending(person => person.PersonName, StringComparer.OrdinalIgnoreCase).ToList(),
 
                 (nameof(PersonResponseDTO.Email), SortOrderOptionType.Ascending) =>
-                    allPersons.OrderBy(person => person.Email, StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderBy(person => person.Email, StringComparer.OrdinalIgnoreCase).ToList(),
                 (nameof(PersonResponseDTO.Email), SortOrderOptionType.Descending) =>
-                    allPersons.OrderBy(person => person.Email, StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderByDescending(person => person.Email, StringComparer.OrdinalIgnoreCase).ToList(),
 
                 (nameof(PersonResponseDTO.DOB), SortOrderOptionType.Ascending) =>
-                allPersons.OrderBy(person => person.DOB).ToList(),
+                filteredPersons.OrderBy(person => person.DOB).ToList(),
                 (nameof(PersonResponseDTO.DOB), SortOrderOptionType.Descending) =>
-                    allPersons.OrderBy(person => person.DOB).ToList(),
+                    filteredPersons.OrderByDescending(person => person.DOB).ToList(),
 
                 (nameof(PersonResponseDTO.Age), SortOrderOptionType.Ascending) =>
-                    allPersons.OrderBy(person => person.DOB).ToList(),
+                    filteredPersons.OrderBy(person => person.DOB).ToList(),
                 (nameof(PersonResponseDTO.Age), SortOrderOptionType.Descending) =>
-                    allPersons.OrderBy(person => person.DOB).ToList(),
+                    filteredPersons.OrderByDescending(person => person.DOB).ToList(),
 
                 (nameof(PersonResponseDTO.Gender), SortOrderOptionType.Ascending) =>
-                    allPersons.OrderBy(person => person.Gender.ToString(), StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderBy(person => person.Gender.ToString(), StringComparer.OrdinalIgnoreCase).ToList(),
                 (nameof(PersonResponseDTO.Gender), SortOrderOptionType.Descending) =>
-                    allPersons.OrderBy(person => person.Gender.ToString(), StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderByDescending(person => person.Gender.ToString(), StringComparer.OrdinalIgnoreCase).ToList(),
 
                 (nameof(PersonResponseDTO.Address), SortOrderOptionType.Ascending) =>
-                    allPersons.OrderBy(person => person.Address, StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderBy(person => person.Address, StringComparer.OrdinalIgnoreCase).ToList(),
                 (nameof(PersonResponseDTO.Address), SortOrderOptionType.Descending) =>
-                    allPersons.OrderBy(person => person.Address, StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderByDescending(person => person.Address, StringComparer.OrdinalIgnoreCase).ToList(),
 
                 (nameof(PersonResponseDTO.CountryName), SortOrderOptionType.Ascending) =>
-                    allPersons.OrderBy(person => person.CountryName, StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderBy(person => person.CountryName, StringComparer.OrdinalIgnoreCase).ToList(),
                 (nameof(PersonResponseDTO.CountryName), SortOrderOptionType.Descending) =>
-                    allPersons.OrderBy(person => person.CountryName, StringComparer.OrdinalIgnoreCase).ToList(),
+                    filteredPersons.OrderByDescending(person => person.CountryName, StringComparer.OrdinalIgnoreCase).ToList(),
 
                 (nameof(PersonResponseDTO.ReceiveNewsLetter), SortOrderOptionType.Ascending) =>
-                    allPersons.OrderBy(person => person.ReceiveNewsLetter).ToList(),
+                    filteredPersons.OrderBy(person => person.ReceiveNewsLetter).ToList(),
                 (nameof(PersonResponseDTO.ReceiveNewsLetter), SortOrderOptionType.Descending) =>
-                    allPersons.OrderBy(person => person.ReceiveNewsLetter).ToList(),
-                _ => allPersons
+                    filteredPersons.OrderByDescending(person => person.ReceiveNewsLetter).ToList(),
+                _ => filteredPersons
             };
             return sortedPersons;
         }
@@ -180,7 +177,7 @@ namespace Services
             matchingPeron.CountryId = requestDTO.CountryID;
             matchingPeron.ReceiveNewsLetter = requestDTO.RecieveNewsLetter;
 
-            return matchingPeron.ToPersonResponseDTO();
+            return ConvertPersonToPersonResponseDTO(matchingPeron);
         }
         #endregion
 

@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Services.Strategies.PersonSearchStrategy
 {
-    public class PersonSearchByDOBStrategy : IPersonSearchStrategy
+    public class PersonSearchByAgeStrategy : IPersonSearchStrategy
     {
 
         private readonly IPersonService _personService;
 
-        public PersonSearchByDOBStrategy()
+        public PersonSearchByAgeStrategy()
         {
             _personService = new PersonsService();
         }

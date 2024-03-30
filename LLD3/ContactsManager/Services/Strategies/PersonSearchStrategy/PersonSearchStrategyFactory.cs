@@ -17,14 +17,16 @@ namespace Services.Strategies.PersonSearchStrategy
                     return new PersonSearchByNameStrategy();
                 case nameof(PersonResponseDTO.Email):
                     return new PersonSearchByEmailStrategy();
-                case nameof(PersonResponseDTO.DOB):
-                    return new PersonSearchByDOBStrategy();
+                //case nameof(PersonResponseDTO.Age):
+                //    return new PersonSearchByAgeStrategy();
                 case nameof(PersonResponseDTO.Gender):
                     return new PersonSearchByGenderStrategy();
                 case nameof(PersonResponseDTO.Address):
                     return new PersonSearchByAddressStrategy();
-                case nameof(PersonResponseDTO.CountryID):
-                    return new PersonSearchByCountryIDStrategy();
+                case nameof(PersonResponseDTO.CountryName):
+                    return new PersonSearchByCountryNameStrategy();
+                default:
+                    return null;
             }
             return null;
         }

@@ -15,7 +15,7 @@ namespace ServiceContracts.DTOs
     public class AddPersonRequestDTO
     {
         [Required(ErrorMessage ="Person name cant be blank")]
-        [StringLength(50),RegularExpression("@\"^[a-zA-Z]$")]
+        [StringLength(50),RegularExpression("^[a-zA-Z0-9\\s]*$")]
         public string? PersonName { get; set; }
 
         [Required(ErrorMessage ="Email cant be blank")]
