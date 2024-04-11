@@ -1,0 +1,1238 @@
+2024-04-11 12:00:06.038 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5030/Countries/UploadFromExcel - multipart/form-data; boundary=----WebKitFormBoundaryJk2VWUwmP0gg68Mn 13043
+2024-04-11 12:00:06.052 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Countries/UploadFromExcel
+2024-04-11 12:00:06.054 +05:30 [INF] Executing endpoint 'ContactsManager.Controllers.CountriesController.UploadFromExcel (ContactsManager)'
+2024-04-11 12:00:06.064 +05:30 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFromExcel(Microsoft.AspNetCore.Http.IFormFile) on controller ContactsManager.Controllers.CountriesController (ContactsManager).
+2024-04-11 12:00:17.734 +05:30 [INF] Executed DbCommand (100ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.747 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.753 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.758 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.764 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.769 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.773 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.780 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.786 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.790 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.796 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.801 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.805 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.811 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.814 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.818 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.822 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.828 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.832 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.836 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.840 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.846 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.851 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.856 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.862 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.868 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.873 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.880 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.885 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.889 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.895 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.899 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.904 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.911 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.921 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.928 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.933 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.937 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.942 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.949 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.953 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.957 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.963 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.967 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.970 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.974 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.979 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.982 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.986 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.990 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.995 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:17.998 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.002 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.006 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.010 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.014 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.017 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.021 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.024 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.028 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.031 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.034 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.038 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.041 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.045 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.048 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.051 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.054 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.057 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.061 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.064 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.067 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.070 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.073 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.077 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.081 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.085 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.089 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.093 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.097 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.100 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.104 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.107 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.112 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.115 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.119 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.123 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.128 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.132 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.135 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.138 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.144 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.148 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.151 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.154 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.158 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.162 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.165 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.168 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.171 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.176 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.179 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.182 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.185 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.188 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.192 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.196 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.199 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.204 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.207 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.211 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.214 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.217 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.220 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.223 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.227 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.231 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.234 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.237 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.240 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.244 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.247 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.251 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.254 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.256 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.259 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.262 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.265 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.268 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.270 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.273 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.277 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.280 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.283 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.286 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.289 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.293 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.297 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.302 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.306 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.310 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.313 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.316 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.318 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.321 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.323 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.328 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.332 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.336 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.340 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.345 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.351 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.356 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.361 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.364 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.367 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.371 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.375 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.379 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.383 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.386 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.389 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.393 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.396 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.399 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.403 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.406 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.411 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.414 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.418 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.421 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.425 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.429 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.432 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.435 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.439 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.443 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.447 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.450 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.453 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.456 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.460 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.464 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.467 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.470 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.474 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.478 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.482 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.485 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.489 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.494 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.498 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.502 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.505 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.509 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.514 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.518 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.523 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.527 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.531 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.534 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.537 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.542 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.546 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.549 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.553 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.556 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.560 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.563 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.566 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.568 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.571 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.574 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.577 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.580 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.583 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.586 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.589 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.592 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.596 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.598 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.601 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.604 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.608 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.613 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.616 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.620 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.623 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.628 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.632 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.636 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.639 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.642 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.646 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.649 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.654 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.657 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.661 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.665 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.668 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.672 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.676 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.679 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.683 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.686 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.689 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.694 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.698 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__countryName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+WHERE [c].[CountryName] = @__countryName_0
+2024-04-11 12:00:18.714 +05:30 [INF] Executing ViewResult, running view UploadFromExcel.
+2024-04-11 12:00:18.723 +05:30 [INF] Executed ViewResult - view UploadFromExcel executed in 10.0344ms.
+2024-04-11 12:00:18.725 +05:30 [INF] Executed action ContactsManager.Controllers.CountriesController.UploadFromExcel (ContactsManager) in 12654.7629ms
+2024-04-11 12:00:18.727 +05:30 [INF] Executed endpoint 'ContactsManager.Controllers.CountriesController.UploadFromExcel (ContactsManager)'
+2024-04-11 12:00:18.728 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Apr 2024 06:30:18 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+2024-04-11 12:00:18.731 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5030/Countries/UploadFromExcel - 200 null text/html; charset=utf-8 12692.8178ms
+2024-04-11 12:00:18.748 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_vs/browserLink - null null
+2024-04-11 12:00:18.750 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-11 12:00:18.756 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 6.1309ms
+2024-04-11 12:00:18.773 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.76ms
+2024-04-11 12:07:05.153 +05:30 [INF] User profile is available. Using 'C:\Users\smsin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 12:07:05.644 +05:30 [INF] Now listening on: http://localhost:5030
+2024-04-11 12:07:05.649 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-11 12:07:05.651 +05:30 [INF] Hosting environment: Development
+2024-04-11 12:07:05.653 +05:30 [INF] Content root path: E:\ProductBasedCompany\Scaler\ScalerLearning\LLD3\ContactsManager\ContactsManager
+2024-04-11 12:07:07.452 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/ - null null
+2024-04-11 12:07:08.916 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2024-04-11 12:07:08.954 +05:30 [INF] Executing endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:07:09.099 +05:30 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptionType) on controller ContactsManager.Controllers.PersonsController (ContactsManager).
+2024-04-11 12:07:09.846 +05:30 [INF] Index action method reached.
+2024-04-11 12:07:09.955 +05:30 [INF] Get Filtered person of PersonService
+2024-04-11 12:07:12.605 +05:30 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIndetificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2024-04-11 12:07:12.848 +05:30 [INF] --------------------GetSortedPersons--------------------------
+2024-04-11 12:07:12.869 +05:30 [INF] Executing ViewResult, running view Index.
+2024-04-11 12:07:13.244 +05:30 [INF] Executed ViewResult - view Index executed in 377.1215ms.
+2024-04-11 12:07:13.251 +05:30 [INF] Executed action ContactsManager.Controllers.PersonsController.Index (ContactsManager) in 4145.7564ms
+2024-04-11 12:07:13.255 +05:30 [INF] Executed endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:07:13.260 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Apr 2024 06:37:12 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2024-04-11 12:07:13.276 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_vs/browserLink - null null
+2024-04-11 12:07:13.285 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/ - 200 null text/html; charset=utf-8 5858.8445ms
+2024-04-11 12:07:13.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-11 12:07:13.335 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 9.4912ms
+2024-04-11 12:07:13.371 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.2265ms
+2024-04-11 12:18:10.059 +05:30 [INF] User profile is available. Using 'C:\Users\smsin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 12:18:10.426 +05:30 [INF] Now listening on: http://localhost:5030
+2024-04-11 12:18:10.430 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-11 12:18:10.433 +05:30 [INF] Hosting environment: Development
+2024-04-11 12:18:10.434 +05:30 [INF] Content root path: E:\ProductBasedCompany\Scaler\ScalerLearning\LLD3\ContactsManager\ContactsManager
+2024-04-11 12:18:11.792 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/ - null null
+2024-04-11 12:18:12.050 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2024-04-11 12:18:12.080 +05:30 [INF] Executing endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:18:12.353 +05:30 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptionType) on controller ContactsManager.Controllers.PersonsController (ContactsManager).
+2024-04-11 12:18:13.056 +05:30 [INF] Index action method reached.
+2024-04-11 12:18:13.129 +05:30 [INF] Get Filtered person of PersonService
+2024-04-11 12:18:14.640 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIndetificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2024-04-11 12:18:14.843 +05:30 [INF] --------------------GetSortedPersons--------------------------
+2024-04-11 12:18:14.877 +05:30 [INF] Executing ViewResult, running view Index.
+2024-04-11 12:18:15.620 +05:30 [INF] Executed ViewResult - view Index executed in 754.9883ms.
+2024-04-11 12:18:15.625 +05:30 [INF] Executed action ContactsManager.Controllers.PersonsController.Index (ContactsManager) in 3266.3144ms
+2024-04-11 12:18:15.628 +05:30 [INF] Executed endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:18:15.634 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Apr 2024 06:48:15 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2024-04-11 12:18:15.641 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-11 12:18:15.642 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_vs/browserLink - null null
+2024-04-11 12:18:15.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 9.0247ms
+2024-04-11 12:18:15.661 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/ - 200 null text/html; charset=utf-8 3888.7054ms
+2024-04-11 12:18:15.808 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_vs/browserLink - 200 null text/javascript; charset=UTF-8 166.7745ms
+2024-04-11 12:29:45.562 +05:30 [INF] User profile is available. Using 'C:\Users\smsin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 12:29:46.158 +05:30 [INF] Now listening on: http://localhost:5030
+2024-04-11 12:29:46.163 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-11 12:29:46.165 +05:30 [INF] Hosting environment: Development
+2024-04-11 12:29:46.167 +05:30 [INF] Content root path: E:\ProductBasedCompany\Scaler\ScalerLearning\LLD3\ContactsManager\ContactsManager
+2024-04-11 12:29:48.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/ - null null
+2024-04-11 12:29:48.465 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2024-04-11 12:29:48.562 +05:30 [INF] Executing endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:29:48.751 +05:30 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptionType) on controller ContactsManager.Controllers.PersonsController (ContactsManager).
+2024-04-11 12:29:50.592 +05:30 [INF] Index action method reached.
+2024-04-11 12:29:50.736 +05:30 [INF] Get Filtered person of PersonService
+2024-04-11 12:29:53.575 +05:30 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIndetificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2024-04-11 12:29:53.754 +05:30 [INF] --------------------GetSortedPersons--------------------------
+2024-04-11 12:29:53.778 +05:30 [INF] Executing ViewResult, running view Index.
+2024-04-11 12:29:54.157 +05:30 [INF] Executed ViewResult - view Index executed in 371.99ms.
+2024-04-11 12:29:54.173 +05:30 [INF] Executed action ContactsManager.Controllers.PersonsController.Index (ContactsManager) in 5356.8175ms
+2024-04-11 12:29:54.187 +05:30 [INF] Executed endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:29:54.209 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-11 12:29:54.209 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_vs/browserLink - null null
+2024-04-11 12:29:54.209 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Apr 2024 06:59:53 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2024-04-11 12:29:54.224 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 14.4606ms
+2024-04-11 12:29:54.268 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/ - 200 null text/html; charset=utf-8 6189.9569ms
+2024-04-11 12:29:54.875 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_vs/browserLink - 200 null text/javascript; charset=UTF-8 666.3154ms
+2024-04-11 12:40:06.305 +05:30 [INF] User profile is available. Using 'C:\Users\smsin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 12:40:06.693 +05:30 [INF] Now listening on: http://localhost:5030
+2024-04-11 12:40:06.697 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-11 12:40:06.699 +05:30 [INF] Hosting environment: Development
+2024-04-11 12:40:06.700 +05:30 [INF] Content root path: E:\ProductBasedCompany\Scaler\ScalerLearning\LLD3\ContactsManager\ContactsManager
+2024-04-11 12:40:09.379 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/ - null null
+2024-04-11 12:40:09.645 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2024-04-11 12:40:09.695 +05:30 [INF] Executing endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:40:09.876 +05:30 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptionType) on controller ContactsManager.Controllers.PersonsController (ContactsManager).
+2024-04-11 12:40:10.994 +05:30 [INF] Index action method reached.
+2024-04-11 12:40:11.143 +05:30 [INF] Get Filtered person of PersonService
+2024-04-11 12:40:13.579 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIndetificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2024-04-11 12:40:13.801 +05:30 [INF] --------------------GetSortedPersons--------------------------
+2024-04-11 12:40:13.837 +05:30 [INF] Executing ViewResult, running view Index.
+2024-04-11 12:40:14.342 +05:30 [INF] Executed ViewResult - view Index executed in 515.3626ms.
+2024-04-11 12:40:14.349 +05:30 [INF] Executed action ContactsManager.Controllers.PersonsController.Index (ContactsManager) in 4468.9645ms
+2024-04-11 12:40:14.353 +05:30 [INF] Executed endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:40:14.361 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Apr 2024 07:10:13 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2024-04-11 12:40:14.380 +05:30 [INF] HTTP GET / responded 200 in 4740.6531 ms
+2024-04-11 12:40:14.392 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-11 12:40:14.393 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_vs/browserLink - null null
+2024-04-11 12:40:14.411 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 26.9481ms
+2024-04-11 12:40:14.425 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/ - 200 null text/html; charset=utf-8 5058.832ms
+2024-04-11 12:40:14.490 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.1303ms
+2024-04-11 12:47:18.857 +05:30 [INF] User profile is available. Using 'C:\Users\smsin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 12:47:19.232 +05:30 [INF] Now listening on: http://localhost:5030
+2024-04-11 12:47:19.237 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-11 12:47:19.239 +05:30 [INF] Hosting environment: Development
+2024-04-11 12:47:19.240 +05:30 [INF] Content root path: E:\ProductBasedCompany\Scaler\ScalerLearning\LLD3\ContactsManager\ContactsManager
+2024-04-11 12:47:21.016 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/ - null null
+2024-04-11 12:47:21.262 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2024-04-11 12:47:21.323 +05:30 [INF] Executing endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:47:21.472 +05:30 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptionType) on controller ContactsManager.Controllers.PersonsController (ContactsManager).
+2024-04-11 12:47:21.997 +05:30 [INF] Index action method reached.
+2024-04-11 12:47:22.155 +05:30 [INF] Get Filtered person of PersonService
+2024-04-11 12:47:24.716 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIndetificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2024-04-11 12:47:24.972 +05:30 [INF] --------------------GetSortedPersons--------------------------
+2024-04-11 12:47:25.005 +05:30 [INF] Executing ViewResult, running view Index.
+2024-04-11 12:47:25.518 +05:30 [INF] Executed ViewResult - view Index executed in 519.9653ms.
+2024-04-11 12:47:25.524 +05:30 [INF] Executed action ContactsManager.Controllers.PersonsController.Index (ContactsManager) in 4047.4152ms
+2024-04-11 12:47:25.527 +05:30 [INF] Executed endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:47:25.533 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Apr 2024 07:17:25 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2024-04-11 12:47:25.541 +05:30 [INF] HTTP GET / responded 200 in 4301.9651 ms
+2024-04-11 12:47:25.563 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_vs/browserLink - null null
+2024-04-11 12:47:25.581 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/ - 200 null text/html; charset=utf-8 4584.1819ms
+2024-04-11 12:47:25.631 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-11 12:47:25.648 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 16.2391ms
+2024-04-11 12:47:25.717 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_vs/browserLink - 200 null text/javascript; charset=UTF-8 154.4206ms
+2024-04-11 12:58:47.578 +05:30 [INF] User profile is available. Using 'C:\Users\smsin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 12:58:47.887 +05:30 [INF] Now listening on: http://localhost:5030
+2024-04-11 12:58:47.893 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-11 12:58:47.896 +05:30 [INF] Hosting environment: Development
+2024-04-11 12:58:47.896 +05:30 [INF] Content root path: E:\ProductBasedCompany\Scaler\ScalerLearning\LLD3\ContactsManager\ContactsManager
+2024-04-11 12:58:49.543 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/ - null null
+2024-04-11 12:58:49.667 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2024-04-11 12:58:49.688 +05:30 [INF] Executing endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:58:49.857 +05:30 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptionType) on controller ContactsManager.Controllers.PersonsController (ContactsManager).
+2024-04-11 12:58:50.480 +05:30 [INF] Index action method reached.
+2024-04-11 12:58:50.541 +05:30 [INF] Get Filtered person of PersonService
+2024-04-11 12:58:52.143 +05:30 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIndetificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2024-04-11 12:58:52.288 +05:30 [INF] Time for filtered persons from datatabase completed in 1743.2 ms
+2024-04-11 12:58:52.360 +05:30 [INF] --------------------GetSortedPersons--------------------------
+2024-04-11 12:58:52.386 +05:30 [INF] Executing ViewResult, running view Index.
+2024-04-11 12:58:52.645 +05:30 [INF] Executed ViewResult - view Index executed in 269.9252ms.
+2024-04-11 12:58:52.650 +05:30 [INF] Executed action ContactsManager.Controllers.PersonsController.Index (ContactsManager) in 2788.9509ms
+2024-04-11 12:58:52.653 +05:30 [INF] Executed endpoint 'ContactsManager.Controllers.PersonsController.Index (ContactsManager)'
+2024-04-11 12:58:52.658 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Apr 2024 07:28:51 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2024-04-11 12:58:52.666 +05:30 [INF] HTTP GET / responded 200 in 3001.3537 ms
+2024-04-11 12:58:52.688 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/ - 200 null text/html; charset=utf-8 3152.537ms
+2024-04-11 12:58:52.706 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_vs/browserLink - null null
+2024-04-11 12:58:52.707 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-11 12:58:52.717 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 10.0644ms
+2024-04-11 12:58:52.807 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5030/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.0277ms

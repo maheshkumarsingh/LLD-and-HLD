@@ -17,18 +17,24 @@ namespace ServiceContracts.DTOs
         [Required(ErrorMessage ="Person id is required")]
         public Guid PersonID { get; set; }
 
-        [Required(ErrorMessage = "Person name cant be blank")]
-        [StringLength(50), RegularExpression("@\"^[a-zA-Z]$")]
+        [Required(ErrorMessage = "Your parents must have named you!!UUUU 😎")]
+        [StringLength(50), RegularExpression("^[a-zA-Z0-9\\s]*$")]
         public string? PersonName { get; set; }
 
         [Required(ErrorMessage = "Email cant be blank")]
         [EmailAddress(ErrorMessage = "Email address should be valid")]
+        [DataType(DataType.EmailAddress)]
         public string? Email { get; set; }
+        [Required(ErrorMessage = "You are born right! Fill DOB 😎")]
+        [DataType(DataType.Date)]
         public DateTime? DOB { get; set; }
 
-        public GenderOptions Gender { get; set; }
+        [Required(ErrorMessage = "Dont Miss it 😎")]
+        public string Gender { get; set; }
         public Guid? CountryID { get; set; }
+        [Required(ErrorMessage = "Do you live in streets!!")]
         public string? Address { get; set; }
+        [Required(ErrorMessage = "Dont try to miss my mails")]
         public bool? RecieveNewsLetter { get; set; }
 
 
@@ -37,13 +43,13 @@ namespace ServiceContracts.DTOs
             return new Person()
             {
                 PersonID = PersonID,
-                Name = PersonName,
+                PersonName = PersonName,
                 Email = Email,
-                Dob = DOB,
-                Gender = (Gender)Gender,
-                CountryId = CountryID,
+                DateOfBirth = DOB,
+                Gender = Gender,
+                CountryID = CountryID,
                 Address = Address,
-                ReceiveNewsLetter = RecieveNewsLetter
+                ReceiveNewsLetters = RecieveNewsLetter
             };
         }
     }

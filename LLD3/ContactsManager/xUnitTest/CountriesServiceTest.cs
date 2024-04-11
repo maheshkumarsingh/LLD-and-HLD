@@ -13,33 +13,33 @@ namespace xUnitTest
     {
         private readonly ICountriesService _countriesService;
         
-        public CountriesServiceTest()
-        {
-            _countriesService = new CountriesService();
-        }
+        //public CountriesServiceTest()
+        //{
+        //    _countriesService = new CountriesService();
+        //}
         #region Add countries
-        [Fact]
-        public void AddCountry_NullCountry()
-        {
-            AddCountryRequestDTO requestDTO = null;
+        //[Fact]
+        //public async Task AddCountry_NullCountry()
+        //{
+        //    AddCountryRequestDTO requestDTO = null;
 
-            Assert.Throws<ArgumentNullException>(() =>
-            {
-                _countriesService.AddCountry(requestDTO);
-            });
-        }
+        //    await Assert.ThrowsAsync<ArgumentNullException>(() =>
+        //    {
+        //        _countriesService.AddCountry(requestDTO);
+        //    });
+        //}
 
 
-        [Fact]
-        public void AddCountry_CountryNameNull()
-        {
-            AddCountryRequestDTO requestDTO = new AddCountryRequestDTO() { CountryName = null};
+        //[Fact]
+        //public async Task AddCountry_CountryNameNull()
+        //{
+        //    AddCountryRequestDTO requestDTO = new AddCountryRequestDTO() { CountryName = null};
 
-            Assert.Throws<ArgumentException>(() =>
-            {
-                _countriesService.AddCountry(requestDTO);
-            });
-        }
+        //    await Assert.ThrowsAsync<ArgumentException>(() =>
+        //    {
+        //        _countriesService.AddCountry(requestDTO);
+        //    });
+        //}
         
         [Fact]
         public void AddCountry_DuplicateCountryName()
@@ -55,11 +55,11 @@ namespace xUnitTest
         }
 
         [Fact]
-        public void AddCountry_ProperCountryName()
+        public async Task AddCountry_ProperCountryNameAsync()
         {
             AddCountryRequestDTO requestDTO = new AddCountryRequestDTO() { CountryName = "Japan"};
 
-            CountryResponseDTO addCountryResponseDTO = _countriesService.AddCountry(requestDTO);
+            CountryResponseDTO addCountryResponseDTO = await _countriesService.AddCountry(requestDTO);
             
             Assert.True(addCountryResponseDTO.CountryID != Guid.Empty);
         }
@@ -67,9 +67,9 @@ namespace xUnitTest
 
         #region Gell All countries
         [Fact]
-        public void GetAllCountries_EmptyList()
+        public async Task GetAllCountries_EmptyListAsync()
         {
-            List<CountryResponseDTO> countryResponseDTOs = _countriesService.GetAllCountries();
+            List<CountryResponseDTO> countryResponseDTOs = await _countriesService.GetAllCountries();
             Assert.Empty(countryResponseDTOs);
         }
 

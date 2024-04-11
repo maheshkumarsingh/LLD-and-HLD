@@ -10,9 +10,9 @@ namespace ServiceContracts
 {
     public interface IPersonService
     {
-        PersonResponseDTO AddPerson(AddPersonRequestDTO requestDTO);
-        List<PersonResponseDTO> GetAllPersons();
-        PersonResponseDTO GetPersonByID(Guid id);
+        Task<PersonResponseDTO> AddPerson(AddPersonRequestDTO requestDTO);
+        Task<List<PersonResponseDTO>> GetAllPersons();
+        Task<PersonResponseDTO> GetPersonByID(Guid? id);
 
         /// <summary>
         /// 
@@ -20,7 +20,7 @@ namespace ServiceContracts
         /// <param name="searchBy">Search field to search</param>
         /// <param name="searchString">returns all matching persons.</param>
         /// <returns></returns>
-        List<PersonResponseDTO> GetFilteredPersons(string searchBy, string searchString);
+        Task<List<PersonResponseDTO>> GetFilteredPersons(string searchBy, string searchString);
 
         /// <summary>
         /// This method is to sort person on demand
@@ -28,10 +28,14 @@ namespace ServiceContracts
         /// <param name="sortBy"></param>
         /// <param name="sortOrderOptionType"></param>
         /// <returns>List of all persons in sorted manner</returns>
-        List<PersonResponseDTO> GetSortedPersons(string sortBy, SortOrderOptionType sortOrderOptionType);
+        Task<List<PersonResponseDTO>> GetSortedPersons(List<PersonResponseDTO> filteredPersons, string sortBy, SortOrderOptionType sortOrderOptionType);
 
-        public PersonResponseDTO UpdatePerson(UpdatePersonRequestDTO requestDTO);
+        public Task<PersonResponseDTO> UpdatePerson(UpdatePersonRequestDTO requestDTO);
 
-        public bool DeletePerson(Guid? personID);
+        public Task<bool> DeletePerson(Guid? personID);
+
+        public Task<MemoryStream> GetPersonsCSV();
+
+        public Task<MemoryStream> GetPersonsExcel();
     }
 }

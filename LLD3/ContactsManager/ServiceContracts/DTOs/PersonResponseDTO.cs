@@ -15,7 +15,7 @@ namespace ServiceContracts.DTOs
         public string? PersonName { get; set; }
         public string? Email { get; set; }
         public DateTime? DOB { get; set; }
-        public GenderOptions Gender { get; set; }
+        public string? Gender { get; set; }
         public Guid? CountryID { get; set; }
         //public string? CountryName
         //{
@@ -77,7 +77,7 @@ namespace ServiceContracts.DTOs
                 PersonName = PersonName,
                 Email = Email,
                 DOB = DOB,
-                Gender = (GenderOptions)Gender,
+                Gender = Gender,
                 CountryID = CountryID,
                 Address = Address,
             };
@@ -91,14 +91,15 @@ namespace ServiceContracts.DTOs
             return new PersonResponseDTO()
             {
                 PersonID            = person.PersonID,
-                PersonName          = person.Name,
+                PersonName          = person.PersonName,
                 Email               = person.Email,
-                DOB                 = person.Dob,
-                Gender              = (GenderOptions)person.Gender,
-                CountryID           = person.CountryId,
-                ReceiveNewsLetter   = person.ReceiveNewsLetter,
+                DOB                 = person.DateOfBirth,
+                Gender              = person.Gender,
+                CountryID           = person.CountryID,
+                CountryName         = person.Country?.CountryName,
+                ReceiveNewsLetter   = person.ReceiveNewsLetters,
                 Address             = person.Address,
-                Age                 = (person.Dob != null) ? Math.Round((DateTime.Now - person.Dob.Value).TotalDays / 365.25) : null
+                Age                 = (person.DateOfBirth != null) ? Math.Round((DateTime.Now - person.DateOfBirth.Value).TotalDays / 365.25) : null
             };
         }
 
