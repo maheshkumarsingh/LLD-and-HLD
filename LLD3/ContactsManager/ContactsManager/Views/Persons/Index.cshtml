@@ -3,7 +3,12 @@
 @{
     ViewBag.Title = "Persons";
 }
-<form action="~/persons/index" method="get">
+<form asp-controller="Persons" asp-action="Index" method="get">
+    <h1>Persons</h1>
+    <button class="button button-red-back"  asp-controller="Persons" asp-action="Create">Create Person</button>
+    <button class="button button-green-back" asp-controller="Persons" asp-action="PersonsPDF">Download as PDF</button>
+    <button class="button button-blue-back" asp-controller="Persons" asp-action="PersonsCSV">Download as CSV</button>
+    <button class="button button-blue-back" asp-controller="Persons" asp-action="PersonsExcel">Download as Excel</button>
 
     <div class="box flex">
         <div class="flex-1">
@@ -26,11 +31,9 @@
         <div class="flex-1">
             <button class="button button-blue-back">Search</button>
             &nbsp;&nbsp;
-            <a href="~/persons/index">Clear All</a>
+            <button class="button button-blue-back" asp-controller="Persons" asp-action="Index" class="link-hover">Clear All</button>
         </div>
     </div>
-    <h1>Persons</h1>
-    <a href="~/persons/create">Create Person</a>
     <table class="table w-100 mt">
         <thead>
             <tr>
@@ -74,6 +77,7 @@
                     {"ColumnName", nameof(PersonResponseDTO.ReceiveNewsLetter)},
                     {"DisplayName", "ReceiveNewsLetter"},
                 })
+                <th>Options</th>
             </tr>
         </thead>
         <tbody>
@@ -81,13 +85,20 @@
             {
                 <tr>
                     <td style="width:15%">@personResponseDTO.PersonName</td>
-                    <td style="width:20%">@personResponseDTO.Email</td>
-                    <td style="width:13%">@personResponseDTO.DOB?.ToString("dd MM yyyy")</td>
+                    <td style="width:10%">@personResponseDTO.Email</td>
+                    <td style="width:10%">@personResponseDTO.DOB?.ToString("dd MM yyyy")</td>
                     <td style="width:9%">@personResponseDTO.Age</td>
                     <td style="width:9%">@personResponseDTO.Gender</td>
                     <td style="width:10%">@personResponseDTO.CountryName</td>
-                    <td style="width:20%">@personResponseDTO.Address</td>
+                    <td style="width:15%">@personResponseDTO.Address</td>
                     <td style="width:10%">@personResponseDTO.ReceiveNewsLetter</td>
+                    <td style="width:15%">
+                        <button class="button" asp-controller="Persons" asp-action="Edit" asp-route-personID="@personResponseDTO.PersonID">Edit</button>
+                        &nbsp;&nbsp;
+                        <button class="button" asp-controller="Persons" asp-action="Delete" asp-route-personID="@personResponseDTO.PersonID">Delete</button>
+
+
+                    </td>
                 </tr>
             }
         </tbody>

@@ -1,37 +1,42 @@
-﻿@{
+﻿@model AddPersonRequestDTO
+
+@{
     ViewBag.Title = "Create Person";
 }
 
-<a href="~/persons/index" class="link-hover">Back To Persons List</a>
+<a asp-controller="Persons" asp-action="Index" class="link-hover">Back To Persons List</a>
 <h2> Create Person</h2>
 
 <div class="w-50">
-    <form action="~/persons/create" method="post">
+    <form asp-controller="Persons" asp-action="Create" method="post">
         @*Person Name*@
         <div class="form-field flex">
             <div class="w-25">
-                <label class="form-label pt" for="PersonName">Person Name</label>
+                <label class="form-label pt" asp-for="PersonName">Person Name</label>
             </div>
             <div class="flex-1">
-                <input class="form-input" type="text" id="PersonName" name="PersonName" />
+                <input class="form-input" asp-for="PersonName" />
+                <span asp-validation-for="PersonName" class="text-red"></span>
             </div>
         </div>
         @*Email*@
         <div class="form-field flex">
             <div class="w-25">
-                <label class="form-label pt" for="Email">Email</label>
+                <label class="form-label pt" asp-for="Email">Email</label>
             </div>
             <div class="flex-1">
-                <input class="form-input" type="email" id="Email" name="Email" />
+                <input class="form-input" asp-for="Email" type="email" />
+                <span asp-validation-for="Email" class="text-red"></span>
             </div>
         </div>
         @*DOB*@
         <div class="form-field flex">
             <div class="w-25">
-                <label class="form-label pt" for="DOB">Date of Birth</label>
+                <label class="form-label pt" asp-for="DOB">Date of Birth</label>
             </div>
             <div class="flex-1">
-                <input class="form-input" type="date" id="DOB" name="DOB" />
+                <input class="form-input" asp-for="DOB" type="date" />
+                <span asp-validation-for="DOB" class="text-red"></span>
             </div>
         </div>
         @*Gender*@
@@ -40,38 +45,37 @@
                 <label class="form-label" for="Gender">Gender</label>
             </div>
             <div class="flex-1">
-                <input type="radio" id="Male" name="Gender" value="Male" class="ml"/>
-                <label for="Male">Male</label>
-                <input type="radio" id="Female" name="Gender" value="Female" class="ml"/>
-                <label for="Female">Female</label>
-                <input type="radio" id="Other" name="Gender" value="Other" class="ml"/>
-                <label for="Other">Other</label>
+                @{
+                    string[] genders = (string[])Enum.GetNames(typeof(GenderOptions));
+                }
+                @foreach (string gender in genders)
+                {
+                    <input type="radio" asp-for="Gender" value="Male" class="ml" />
+                    <label asp-for="@gender">@gender</label>
+                }
+                <span asp-validation-for="Gender" class="text-red"></span>
             </div>
         </div>
         @*Country*@
         <div class="form-field flex">
             <div class="w-25">
-                <label class="form-label" for="CountryID">Country</label>
+                <label class="form-label" asp-for="CountryID">Country</label>
             </div>
             <div class="flex-1">
-                <select name="CountryID" id="CountryID" class="form-input">
-                    <option>Please Select</option>
-                    @foreach (var country in ViewBag.Countries)
-                    {
-                        <option value="@country.CountryID">@country.CountryName</option>
-                    }
+                <select asp-for="CountryID" class="form-input" asp-items="@ViewBag.Countries">
+                    <option value="">Please Select</option>
+
                 </select>
             </div>
         </div>
         @*Address*@
         <div class="form-field flex">
             <div class="w-25">
-                <label class="form-label pt" for="Address">Address</label>
+                <label class="form-label pt" asp-for="Address">Address</label>
             </div>
             <div class="flex-1">
-                <textarea class="form-input" id="Address" name="Address" placeholder="Enter Address">
-
-                </textarea>
+                <textarea class="form-input" asp-for="Address" placeholder="Enter Address"></textarea>
+                <span asp-validation-for="Address" class="text-red"></span>
             </div>
         </div>
         @*RNL*@
@@ -79,8 +83,9 @@
             <div class="w-25">
             </div>
             <div class="flex-1">
-                <input type="checkbox" name="ReceiveNewsLetter" id="ReceiveNewsLetter" value="true"/>
-                <label for="ReceiveNewsLetter" class="form-label">ReceiveNewsLetter</label>
+                <input asp-for="RecieveNewsLetter" value="true" />
+                <label asp-for="RecieveNewsLetter" class="form-label">RecieveNewsLetter</label>
+                <span asp-validation-for="RecieveNewsLetter" class="text-red"></span>
             </div>
         </div>
         @*Submit button*@
@@ -89,11 +94,12 @@
             </div>
             <div class="flex-1">
                 <button class="button button-green-back">Create</button>
-                @if(ViewBag.Errors!= null)
+                <div asp-validation-summary="All" class="text-red"></div>
+                @if (ViewBag.Errors != null)
                 {
                     <div class="text-red ml">
                         <ul>
-                            @foreach(string error in ViewBag.Errors)
+                            @foreach (string error in ViewBag.Errors)
                             {
                                 <li class="ml">@error</li>
                             }
@@ -104,3 +110,7 @@
         </div>
     </form>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
